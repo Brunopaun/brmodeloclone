@@ -1,12 +1,16 @@
 <template>
-  <div class="text-blue-700">Brmodelo Clone</div>
+  <div class="w-28">
+  <InputWithLabel label="Email" placeholder="Email" hasError/>
+  </div>
 </template>
 
 <script>
+  import InputWithLabel from "./components/ui/InputWithLabel"
 
-export default {
+export default { 
   name: 'App',
   components: {
+    InputWithLabel,
   }
 }
 </script>

@@ -5,7 +5,18 @@ module.exports = {
   ],
   darkMode: false,
   theme: {
-    extend: {},
+    extend: {
+      margin:{
+        "1/5": '5px',
+      },
+      fontSize:{
+        "inputWithLabel": ["18px", "1.333333"]
+      },
+      colors:{
+        'graybr': '#555',
+        'redbr':'rgba(255,0,0,.8)',
+      }
+    },
   },
   variants:{
     extend:{},
